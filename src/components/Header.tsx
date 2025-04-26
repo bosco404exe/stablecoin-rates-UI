@@ -12,14 +12,14 @@ const Header: React.FC = () => {
         <img
           src={logo}
           alt="logo"
-          className="w-[12rem] h-[1.32rem] object-contain cursor-pointer"
+          className="w-[12rem] h-[1.32rem]  object-contain cursor-pointer"
         />
       </Link>
 
       <Link
         to="/developer"
           className={`text-[1.6rem] font-medium text-base hover:text-white active:text-white transition duration-200 ease-in-out ${
-          isDeveloperPage ? "text-white" : "text-white-dull "
+          isDeveloperPage ? "text-white" : "text-white-dull"
         }`}
       >
         For Developers
